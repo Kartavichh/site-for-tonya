@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.desktop {
+    position: relative;
+    width: 1200px;
+    height: 1718px;
+    background: #002B10;
+}
+
+/* IMG 20241210_211103_669 */
+.header {
+    position: absolute;
+    width: 1200px;
+    height: 145px;
+    left: 0px;
+    top: 0px;
+    background: url('IMG_20241210_211103_669.jpg') no-repeat center center;
+}
+
+/* Rectangle 1 */
+.rectangle-1 {
+    position: absolute;
+    width: 1200px;
+    height: 90px;
+    left: 0px;
+    top: 145px;
+    background: #042441;
+}
+
+/* Section Styles */
+.section {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.home {
+    width: 208px;
+    height: 82px;
+    left: 0px;
+    top: 143px;
+}
+
+.history {
+    width: 208px;
+    height: 80px;
+    left: 218px;
+    top: 145px;
+}
+
+.characters {
+    width: 212px;
+    height: 80px;
+    left: 438px;
+    top: 145px;
+}
+
+.download {
+    width: 156px;
+    height: 80px;
+    left: 668px;
+    top: 145px;
+}
+
+.new {
+    width: 176px;
+    height: 90px;
+    left: 882px;
+    top: 145px;
+}
+
+/* Main Image */
+.main-img {
+    position: absolute;
+    width: 1028px;
+    height: 1050px;
+    left: 86px;
+    top: 235px;
+    background: url('IMG_20241210_211103_669.jpg') no-repeat center center;
+}
+
+/* Отправиться в путь */
+.journey {
+    position: absolute;
+    width: 407px;
+    height: 168px;
+    left: 288px;
+    top: 568px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    text-align: center;
+    color: #04F5A6;
+}
+
+/* Other sections can follow similar structure as above, replicating the specific positions and properties */
