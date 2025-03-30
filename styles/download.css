@@ -8,7 +8,7 @@ body {
     position: relative;
     width: 100%;
     background: url('../assets/img/main_page.png') ;
-    height: 10vh;
+    height: 12vh;
 }
 
 .header-image {
@@ -63,7 +63,7 @@ body {
 .download-content {
     display: grid;
     place-items: center;
-    padding: 60px;
+    padding: 32px;
 }
 
 .download-content img {
