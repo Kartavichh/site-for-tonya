@@ -76,13 +76,13 @@ body, html {
 
 .cta-button {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 54%;
+    left: 40%;
     transform: translate(-50%, -50%);
     background: transparent;
     color: #00FFAA;
     border: none;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 600;
     cursor: pointer;
     text-transform: lowercase;
