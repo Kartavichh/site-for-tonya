@@ -72,7 +72,7 @@ body {
 }
 .story-image{
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 1/3;
 }
 .story-text{
     grid-column: 2;

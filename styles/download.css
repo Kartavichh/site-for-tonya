@@ -68,21 +68,6 @@ body {
 
 .download-content img {
     width: 100%;
-    max-width: 600px;
+    max-width: 100vh;
     margin-bottom: 20px;
-}
-
-.progress-bar {
-    width: 60%;
-    height: 20px;
-    background-color: #014B5B;
-    position: relative;
-}
-
-.progress-bar::after {
-    content: '';
-    display: block;
-    height: 100%;
-    width: 60%;
-    background-color: #00FFAA;
 }
