@@ -1,23 +1,13 @@
-body, html {
+body {
     margin: 0;
-    padding: 0;
     font-family: 'Inter', sans-serif;
-    height: 100%;
+    background-color: #002b18;
     color: white;
 }
-
-.background {
-    position: relative;
-    background: url('assets/img/main_page.png') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
-
 .header {
     position: relative;
     width: 100%;
-    background: url('assets/img/main_page.png') ;
+    background: url('../assets/img/main_page.png') ;
     height: 10vh;
 }
 
@@ -35,7 +25,6 @@ body, html {
     object-fit: cover;
     opacity: 0.5;  /* Делает картинку немного прозрачной */
 }
-
 .nav {
     background-color: #00203B; /* тёмно-синий */
     padding: 0;
@@ -66,54 +55,28 @@ body, html {
     transition: background 0.3s;
 }
 
-.nav-list a:hover {
-    background-color: #014B5B;
-}
 
 .nav-list a.active {
-    background-color: #006064; /* активная вкладка */
+    background-color: #006064;
 }
 
-.cta-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: transparent;
-    color: #00FFAA;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
-    text-transform: lowercase;
-    transition: color 0.3s;
-}
-
-.cta-button:hover {
-    color: #00c088;
-}
-.story-page {
-    background-color: #00203B;
-    color: white;
-}
-
-.story-content {
+.news-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    padding: 30px;
+    gap: 40px;
+    padding: 40px;
+    align-items: center;
+    justify-items: center;
 }
 
-.story-text h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
+.news-item img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin-bottom: 10px;
 }
 
-.story-text p {
-    font-size: 1.2em;
-}
-
-.story-image img {
-    max-width: 100%;
-    border-radius: 10px;
+.news-item p {
+    font-size: 18px;
+    text-align: center;
 }
